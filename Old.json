@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\temp\\2\\Proj1\\Proj1.csproj": {},
+    "D:\\temp\\2\\Proj2\\Proj2.csproj": {},
+    "Microsoft.Extensions.SecretManager.Tools-80b8ea23-f2b6-4766-89ce-e45a3a759232": {},
+    "Microsoft.Extensions.SecretManager.Tools-b0699a45-b055-4225-b1d0-7799c3deda3e": {}
+  },
+  "projects": {
+    "D:\\temp\\2\\Proj1\\Proj1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\2\\Proj1\\Proj1.csproj",
+        "projectName": "Proj1",
+        "projectPath": "D:\\temp\\2\\Proj1\\Proj1.csproj",
+        "outputPath": "D:\\temp\\2\\Proj1\\obj\\",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "2.0.0-preview1-25301-01"
+            }
+          },
+          "imports": [
+            "net461"
+          ]
+        }
+      }
+    },
+    "D:\\temp\\2\\Proj2\\Proj2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\2\\Proj2\\Proj2.csproj",
+        "projectName": "Proj2",
+        "projectPath": "D:\\temp\\2\\Proj2\\Proj2.csproj",
+        "outputPath": "D:\\temp\\2\\Proj2\\obj\\",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "2.0.0-preview1-25301-01"
+            }
+          },
+          "imports": [
+            "net461"
+          ]
+        }
+      }
+    },
+    "Microsoft.Extensions.SecretManager.Tools-80b8ea23-f2b6-4766-89ce-e45a3a759232": {
+      "restore": {
+        "projectUniqueName": "Microsoft.Extensions.SecretManager.Tools-80b8ea23-f2b6-4766-89ce-e45a3a759232",
+        "projectName": "DotnetCliToolReference-Microsoft.Extensions.SecretManager.Tools",
+        "projectPath": "D:\\temp\\2\\Proj2\\Proj2.csproj",
+        "projectStyle": "DotnetCliTool",
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.SecretManager.Tools": {
+              "target": "Package",
+              "version": "2.0.0-*"
+            }
+          }
+        }
+      }
+    },
+    "Microsoft.Extensions.SecretManager.Tools-b0699a45-b055-4225-b1d0-7799c3deda3e": {
+      "restore": {
+        "projectUniqueName": "Microsoft.Extensions.SecretManager.Tools-b0699a45-b055-4225-b1d0-7799c3deda3e",
+        "projectName": "DotnetCliToolReference-Microsoft.Extensions.SecretManager.Tools",
+        "projectPath": "D:\\temp\\2\\Proj1\\Proj1.csproj",
+        "projectStyle": "DotnetCliTool",
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.SecretManager.Tools": {
+              "target": "Package",
+              "version": "2.0.0-*"
+            }
+          }
+        }
+      }
+    }
+  }
+}

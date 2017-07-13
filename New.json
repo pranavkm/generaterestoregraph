@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\temp\\2\\Proj1\\Proj1.csproj": {},
+    "D:\\temp\\2\\Proj2\\Proj2.csproj": {},
+    "microsoft.extensions.secretmanager.tools-netcoreapp2.0-[2.0.0-*, )": {}
+  },
+  "projects": {
+    "D:\\temp\\2\\Proj1\\Proj1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\2\\Proj1\\Proj1.csproj",
+        "projectName": "Proj1",
+        "projectPath": "D:\\temp\\2\\Proj1\\Proj1.csproj",
+        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\2\\Proj1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Pranav\\.dotnet\\x64\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\temp\\2\\NuGet.Config",
+          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "2.0.0-preview3-25505-01",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\temp\\2\\Proj2\\Proj2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\2\\Proj2\\Proj2.csproj",
+        "projectName": "Proj2",
+        "projectPath": "D:\\temp\\2\\Proj2\\Proj2.csproj",
+        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\2\\Proj2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Pranav\\.dotnet\\x64\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\temp\\2\\NuGet.Config",
+          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "2.0.0-preview3-25505-01",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "microsoft.extensions.secretmanager.tools-netcoreapp2.0-[2.0.0-*, )": {
+      "restore": {
+        "projectUniqueName": "microsoft.extensions.secretmanager.tools-netcoreapp2.0-[2.0.0-*, )",
+        "projectName": "DotnetCliToolReference-Microsoft.Extensions.SecretManager.Tools",
+        "projectPath": "D:\\temp\\2\\Proj1\\Proj1.csproj",
+        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
+        "projectStyle": "DotnetCliTool",
+        "fallbackFolders": [
+          "C:\\Users\\Pranav\\.dotnet\\x64\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\temp\\2\\NuGet.Config",
+          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.SecretManager.Tools": {
+              "target": "Package",
+              "version": "2.0.0-*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
